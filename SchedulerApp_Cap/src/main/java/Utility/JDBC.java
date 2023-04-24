@@ -34,6 +34,7 @@ public abstract class JDBC {
         } catch (Exception e) {
             System.out.println("JDBC openConnection Error: " + e.getMessage());
             System.out.println(e.getCause());
+            System.out.println("test");
         }
     }
 
